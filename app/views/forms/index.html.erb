@@ -1,0 +1,6 @@
+
+<%= form_with url:"/forms/create", data:{turbo: "false"} do |f|  %>
+    <%= f.text_field :params %>
+    <%= f.submit "Enviar" %>
+<% end %>
+
